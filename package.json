@@ -1,0 +1,28 @@
+{
+  "name": "spotify-api-search",
+  "version": "1.0.0",
+  "description": "Testing spotify Web API Services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mpcalzada/spotify-api-search.git"
+  },
+  "author": "Marco Calzada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpcalzada/spotify-api-search/issues"
+  },
+  "homepage": "https://github.com/mpcalzada/spotify-api-search#readme",
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "node-spotify-api": "1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1"
+  }
+}
