@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mpcalzada/spotify-api-search#readme",
   "dependencies": {
+    "axios": "^0.17.1",
     "dotenv": "8.0.0",
     "node-spotify-api": "1.1.1"
   },
